@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Poppins:ital,wght@0,400;0,500;0,700;0,900;1,500&family=Questrial&display=swap');
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.navbar{   
+    position:fixed;
+    display:flex;
+    height: 104px;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    
+}
+
+
+
+.navbar ul li  {
+    
+    display: inline-block;
+    margin: 15px;
+    
+
+     }
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-family:  'Questrial', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    /* margin: 20px; */
+        }
+.logo{
+    margin: 5px;
+    padding-right: 70px;
+    
+}
+
+
+.logo1 {
+    margin: 20px;
+    padding-left: 110px;
+    
+}
+
+.banner1 {
+    display: flex;
+justify-content: center;
+padding-top: 130px;
+}
+
+.block1 {
+    padding-top: 70px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.box1   {
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    /* margin: 150px; */
+}
+.box1 h1 {
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    max-width: 450px;
+    
+}
+.box1 p {
+    letter-spacing: -0.01em;
+text-align: left;
+color: rgb(0, 0, 0);
+font-size: 1.125rem;
+line-height: 2;
+font-weight: 500;
+padding-top: 48px;
+padding-bottom: 32px;
+max-width: 450px;
+}
+.banner2 {
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+    padding: 45px;
+
+}
+.box3 {
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.block2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 25px;
+    justify-content: space-evenly;
+    font-family: 'Questrial', sans-serif;
+}
+.block2 h3 {
+    font-size: 45px;
+    font-weight:400
+}
+.block2 p {
+    font-size: 20px;
+}
+
+
+.banner3{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+.banner3 h4 {
+    font-size: 60px;
+}
+.banner3 p {
+    font-size: 25px;
+}
+
+
+.block3 {
+    font-family: 'Questrial', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+/* .box7 {
+
+
+
+
